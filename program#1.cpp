@@ -22,7 +22,7 @@ int main() {
     cin >> birthDay; 
 
     
-    int age = currentYear - birthYear - ((currentMonth < birthMonth) || 
+    int age = currentYear - birthYear - ((currentMonth <      birthMonth) || 
      (currentMonth == birthMonth && currentDay < birthDay));
 
     
