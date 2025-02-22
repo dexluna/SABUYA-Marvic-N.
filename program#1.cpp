@@ -22,12 +22,11 @@ int main() {
     cin >> birthDay; 
 
     
-    int age = currentYear - birthYear - ((currentMonth <      birthMonth) || 
-     (currentMonth == birthMonth && currentDay < birthDay));
-
-    
-    cout << "Name: " << name << endl;
-    cout << "Age: " << age << " years old" << endl;
+    int age = currentYear - birthYear - ((currentMonth <  birthMonth) || 
+     (currentMonth == birthMonth && currentDay < birthDay));  
+     
+    cout<< endl;
+    cout << "Your name is  " << name << " and you are " <<    age << endl;
 
     return 0;
 }
